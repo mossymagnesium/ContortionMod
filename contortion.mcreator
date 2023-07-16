@@ -1,0 +1,64 @@
+{
+  "mod_elements": [
+    {
+      "name": "Contortstone",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "contortstone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/contortion/block/ContortstoneBlock.java",
+          "src/main/resources/assets/contortion/blockstates/contortstone.json",
+          "src/main/resources/assets/contortion/models/item/contortstone.json",
+          "src/main/resources/assets/contortion/models/block/contortstone.json"
+        ]
+      }
+    },
+    {
+      "name": "ContortionBlocks",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "contortion_blocks",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.contortion.contortstone": "Contortstone",
+      "itemGroup.tabcontortion_blocks": "Contortion Blocks"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "contortion",
+    "modName": "The Contortion",
+    "version": "1.0.0",
+    "author": "n8n20, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.contortion",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

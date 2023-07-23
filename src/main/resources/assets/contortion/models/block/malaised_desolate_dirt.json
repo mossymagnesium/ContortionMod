@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "contortion:blocks/desolatedirt",
+    "up": "contortion:blocks/malaise",
+    "north": "contortion:blocks/malaisedirtside",
+    "east": "contortion:blocks/malaisedirtside",
+    "south": "contortion:blocks/malaisedirtside",
+    "west": "contortion:blocks/malaisedirtside",
+    "particle": "contortion:blocks/desolatedirt"
+  },
+  "render_type": "solid"
+}

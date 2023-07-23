@@ -25,6 +25,22 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "MalaisedDesolateDirt",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malaised_desolate_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/contortion/models/item/malaised_desolate_dirt.json",
+          "src/main/resources/assets/contortion/blockstates/malaised_desolate_dirt.json",
+          "src/main/resources/assets/contortion/models/block/malaised_desolate_dirt.json",
+          "src/main/java/net/mcreator/contortion/block/MalaisedDesolateDirtBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -32,6 +48,7 @@
   "language_map": {
     "en_us": {
       "block.contortion.contortstone": "Contortstone",
+      "block.contortion.malaised_desolate_dirt": "Malaised Desolate Dirt",
       "itemGroup.tabcontortion_blocks": "Contortion Blocks"
     }
   },
